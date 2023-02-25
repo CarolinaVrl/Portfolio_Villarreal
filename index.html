@@ -9,16 +9,19 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+        integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
 
 
     <title>Portafolio</title>
 </head>
 
 <body>
-    <div class="container">
-        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <div class="container " id="ups">
+        <nav class="navbar ">
             <div class="container-fluid">
-                <a class="navbar-brand" href="#">CaroVlr</a>
+                <a class=" navbar-brand a" href="#">CaroVlr</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                     aria-expanded="false" aria-label="Toggle navigation">
@@ -27,20 +30,20 @@
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                         <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+                            <a class="nav-link" aria-current="page" href="#">Inicio</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="#about_me">Sobre Mí</a>
                         </li>
 
                         <li class="nav-item">
-                            <a class="nav-link disabled">Experiencia</a>
+                            <a class="nav-link " href="#experience">Experiencia</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link disabled">Habilidades</a>
+                            <a class="nav-link " href="#skills">Habilidades</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link disabled">Contacto</a>
+                            <a class="nav-link " href="#contact">Contacto</a>
                         </li>
                     </ul>
 
@@ -86,181 +89,238 @@
 
 
         </div>
-    </div>
 
-    </div>
 
-    </div>
-    <!-- ----------------------------------About Me-------------------------------------->
-    <div id="about_me" class="about_me">
-        <h2>Sobre mí</h2>
-        <p>Soy una desarrolladora con conocientos FrontEnd y BackEnd.
-            Mi enfoque es en dar una increible experiencia de usuario,
-            siguiendo los estadares del cliente.</p>
-        <button class="cv">Descargar CV</button>
-    </div>
-    <!------------------------------------- Work Experience-------------------- -->
-    <div class="experience">
-        <h2>Experiencia</h2>
-        <div class="row">
-            <div class="col-sm-6 mb-3 mb-sm-0">
-                <div class="card">
-                    <div class="card-body">
+
+
+
+        <!-- ----------------------------------About Me-------------------------------------->
+        <div id='about_me' class="about_me">
+            <h2>Sobre mí</h2>
+            <p>Soy una desarrolladora con conocimientos FrontEnd y BackEnd.
+                Mi enfoque es en dar una increíble experiencia de usuario,
+                siguiendo los estándares del cliente.</p>
+
+            <a href="./assets/Documents/Diana Villarreal.pdf" download><button class="cv">Descargar CV</button></a>
+        </div>
+        <!------------------------------------- Work Experience-------------------- -->
+        <div id="experience" class="experience">
+            <h2>Experiencia</h2>
+            <div class="row">
+                <div class="col1">
+                    <div class="card_img">
                         <img class="work_img" src="/assets/Images/Oma.png" alt="">
 
 
+
                     </div>
-                    <div class="experience_hide">
-                        <h3>Oma Cafe</h3>
-                        <p>Preparación de bebidas a base de cafe, pasteleria y panadería <br />
-                            Aprendí a hacer pedidos por el sistema, manejar personal y trabajar bajo presión.</p>
-                    </div>
-
-
-                </div>
-
-
-            </div>
-            <div class="col-sm-6 mb-3 mb-sm-0">
-                <div class="card">
-                    <div class="card-body">
+                    <div class="card_img">
                         <img class="work_img" src="/assets/Images/Cine_Colombia.png" alt="">
 
 
-                    </div>
-                    <div class="experience_hide">
-                        <h3>Cine Colombia</h3>
-                        <p>Preparación de comidas, guiar a clientes. <br />
-                            Apertura y cierre de tienda</p>
-                    </div>
-                </div>
-            </div>
 
-            <div class="col-sm-6 mb-3 mb-sm-0">
-                <div class="card">
-                    <div class="card-body">
+                    </div>
+                    <div class="card_img">
                         <img class="work_img" src="/assets/Images/SuperInter.png" alt="">
 
 
+
                     </div>
-                    <div class="experience_hide">
-                        <h3>Super Inter</h3>
-                        <p>Aprendi a manejar el sistema que da los precios diarios <br />
-                            y la maquina de marcaciones</p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-sm-6 mb-3 mb-sm-0">
-                <div class="card">
-                    <div class="card-body">
+                    <div class="card_img">
                         <img class="work_img" src="/assets/Images/La_14.png" alt="">
 
 
-                    </div>
-                    <div class="experience_hide">
-                        <h3>Almacenes LA 14</h3>
-                        <p>Fue mi primer trabajo, aprendi sobre los medios de pago <br />
-                            El sistema de registros y como se cuadra una caja</p>
+
                     </div>
                 </div>
+                <div class="col2">
+                    <div class="card_text">
+                        <h3>Oma Cafe <i class="fa-solid fa-mug-hot"></i></h3>
+                        <p>Preparación de bebidas a base de cafe, pasteleria y panadería <br />
+                            Aprendí a hacer pedidos por el sistema, manejar personal y trabajar bajo presión.</p>
+                    </div>
+                    <div class="card_text">
+                        <h3>Cine Colombia <i class="fa-solid fa-clapperboard"></i></h3>
+                        <p>Preparación de comidas, guiar a clientes. <br />
+                            Apertura y cierre de tienda.</p>
+
+                    </div>
+                    <div class="card_text">
+                        <h3>Super Inter <i class="fa-solid fa-cart-shopping"></i></h3>
+                        <p>Aprendi a manejar el sistema que da los precios diarios <br />
+                            y la maquina de marcaciones.</p>
+                    </div>
+                    <div class="card_text">
+                        <h3>Almacenes LA 14 <i class="fa-solid fa-cart-shopping"></i></h3>
+                        <p>Fue mi primer trabajo, aprendi sobre los medios de pago. <br />
+                            El sistema de registros y como se cuadra una caja.</p>
+
+                    </div>
+
+                </div>
+
             </div>
+
+        </div>
+        <!----------------------------Skills------------------------------------------>
+        <div id="skills" class="skills">
+            <h2>Habilidades</h2>
+            <div class="container_skills">
+                <div class="card_skills">
+                    <div class="percent" style="--clr:#04fc43; --num:85">
+                        <h3>HTML</h3>
+                        <div class="dot"></div>
+                        <svg>
+                            <circle cx="70" cy="70" r="70"></circle>
+                            <circle cx="70" cy="70" r="70"></circle>
+                        </svg>
+                    </div>
+
+                </div>
+                <div class="card_skills">
+                    <div class="percent" style="--clr:#ff00be; --num:85">
+                        <h3>CSS</h3>
+                        <div class="dot"></div>
+                        <svg>
+                            <circle cx="70" cy="70" r="70"></circle>
+                            <circle cx="70" cy="70" r="70"></circle>
+                        </svg>
+                    </div>
+                </div>
+                <div class="card_skills">
+                    <div class="percent" style="--clr:#06ccff; --num:85">
+                        <h3>Javascript</h3>
+                        <div class="dot"></div>
+                        <svg>
+                            <circle cx="70" cy="70" r="70"></circle>
+                            <circle cx="70" cy="70" r="70"></circle>
+                        </svg>
+                    </div>
+                </div>
+                <div class="card_skills">
+                    <div class="percent" style="--clr:#fee800; --num:85">
+                        <h3>React</h3>
+                        <div class="dot"></div>
+                        <svg>
+                            <circle cx="70" cy="70" r="70"></circle>
+                            <circle cx="70" cy="70" r="70"></circle>
+                        </svg>
+                    </div>
+                </div>
+                <div class="card_skills">
+                    <div class="percent" style="--clr:#ff1e00; --num:85">
+                        <h3>Bootstrap</h3>
+                        <div class="dot"></div>
+                        <svg>
+                            <circle cx="70" cy="70" r="70"></circle>
+                            <circle cx="70" cy="70" r="70"></circle>
+                        </svg>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <!-- ----------------------------Proyectos ----------------------------- -->
+        <div class="proyects">
+            <h2>Proyectos</h2>
+            <div>
+                <div class="box_proyects">
+
+
+                    <a href="">
+                        <img src="/assets/Images/Proyects/Pokedex.png" alt="">
+                        <div class="cape">
+                            <h3>Pokedex
+
+                            </h3>
+                            <p>Creado en React y Redux
+                                Apartir del llamado a una API de la nube te
+                                permite buscar a tu pokemon por nombre o categoría.
+
+                            </p>
+                        </div>
+                    </a>
+                    <a href=""><img src="/assets/Images/Proyects/Lista de Usuarios.png" alt="">
+                        <div class="cape">
+                            <h3>Lista de Usuarios
+
+                            </h3>
+                            <p>Creado en React con Hook Form
+                                Permite crear, actulizar y eliminar usuarios de una lista creada.
+                                Se puede agregar cumpleaños y datos personales.
+
+                            </p>
+                        </div>
+                    </a>
+                    <a href=""><img src="/assets/Images/Proyects/Frases Aleatorias.png" alt="">
+                        <div class="cape">
+                            <h3>Frases Aleatorias
+
+                            </h3>
+                            <p>Creado en React
+                                Permite traer frases de un JSON de manera aleatoria, cambiando color de fuente, fondo
+                                y boton.
+
+                            </p>
+                        </div>
+                    </a>
+                </div>
+                <!-- Content here -->
+            </div>
+        </div>
+        <!-- ------------------------Contact-------------------------------- -->
+        <div class="contact">
+            <h2 id='contact'>Contacto</h2>
+            <div class="container_form">
+                <input type="text" placeholder="Nombre">
+                <input type="text" placeholder="Número Telefonico">
+                <input type="text" placeholder="Correo Electronico">
+                <input type="text" placeholder="Tema">
+                <textarea name="" id="" cols="30" rows="10" placeholder="Mensaje"></textarea>
+
+                <button>
+                    Enviar Mensaje <i class="fa-solid fa-paper-plane"></i>
+                    <span class="overlay"></span>
+                </button>
+
+
+
+            </div>
+
+            <div class="datos">
+                <h3 class="datos_type"><i class="fa-solid fa-square-phone"></i>+57 317 824 4287</h3>
+                <h3 class="datos_type"><i class="fa-solid fa-square-envelope"></i>dianacarolinav97@gmail.com</h3>
+
+
+            </div>
+            
+          
 
 
         </div>
+        <!-- --------------------------Footer---------------------------- -->
+        <footer>
+            <div class="up">
+                <a href="#ups">
+                    <i class="fa-solid fa-angles-up"></i>
+                </a>
+
+            </div>
+            <div class="social">
+                <a href="https://github.com/CarolinaVrl"><i class='bx    bxl-github'></i></a>
+                <a href="https://www.instagram.com/caro_vlr97/?igshid=ZDdkNTZiNTM%3D"><i
+                        class='bx  bxl-instagram-alt'></i></a>
+                <a href="https://www.linkedin.com/in/dianacarolinavillarreal/"><i
+                        class='bx   bxl-linkedin-square'></i></a>
+
+
+
+
+            </div>
+
+        </footer>
     </div>
-    <!----------------------------Skills------------------------------------------>
-    <div class="skills">
-        <h2>Habilidades</h2>
-        <div class="container_skills">
-            <div class="card_skills">
-                <div class="percent" style="--clr:#04fc43; --num:85">
-                    <h3>HTML</h3>
-                    <div class="dot"></div>
-                    <svg>
-                        <circle cx="70" cy="70" r="70"></circle>
-                        <circle cx="70" cy="70" r="70"></circle>
-                    </svg>
-                </div>
 
-            </div>
-            <div class="card_skills">
-                <div class="percent" style="--clr:#ff00be; --num:85">
-                    <h3>CSS</h3>
-                    <div class="dot"></div>
-                    <svg>
-                        <circle cx="70" cy="70" r="70"></circle>
-                        <circle cx="70" cy="70" r="70"></circle>
-                    </svg>
-                </div>
-            </div>
-            <div class="card_skills">
-                <div class="percent" style="--clr:#06ccff; --num:85">
-                    <h3>Javascript</h3>
-                    <div class="dot"></div>
-                    <svg>
-                        <circle cx="70" cy="70" r="70"></circle>
-                        <circle cx="70" cy="70" r="70"></circle>
-                    </svg>
-                </div>
-            </div>
-            <div class="card_skills">
-                <div class="percent" style="--clr:#fee800; --num:85">
-                    <h3>React</h3>
-                    <div class="dot"></div>
-                    <svg>
-                        <circle cx="70" cy="70" r="70"></circle>
-                        <circle cx="70" cy="70" r="70"></circle>
-                    </svg>
-                </div>
-            </div>
-            <div class="card_skills">
-                <div class="percent" style="--clr:#ff1e00; --num:85">
-                    <h3>Bootstrap</h3>
-                    <div class="dot"></div>
-                    <svg>
-                        <circle cx="70" cy="70" r="70"></circle>
-                        <circle cx="70" cy="70" r="70"></circle>
-                    </svg>
-                </div>
-            </div>
-        </div>
-
-    </div>
-    <!-- ----------------------------Proyectos ----------------------------- -->
-    <div class="proyects">
-        <h2>Proyectos</h2>
-        <div>
-            <div class="card" style="width: 18rem;">
-                <img src="/assets/Images/Proyects/Pokedex.png" alt="">
-                <div class="card-body">
-
-                    <h5 class="card-title">Pokedex</h5>
-
-
-                </div>
-            </div>
-            <div class="card" style="width: 18rem;">
-                <img src="/assets/Images/Proyects/Lista de Usuarios.png" alt="">
-                <div class="card-body">
-
-                    <h5 class="card-title">Lista de Usuarios</h5>
-
-
-                </div>
-            </div>
-            <div class="card" style="width: 18rem;">
-                <img src="/assets/Images/Proyects/Frases Aleatorias.png" class="card-img-top" alt="...">
-                <div class="card-body">
-
-                    <h5 class="card-title">Frases Aleatorias</h5>
-
-
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- Content here -->
-    </div>
 
 
 
