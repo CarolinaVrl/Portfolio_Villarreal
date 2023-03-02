@@ -20,9 +20,10 @@
  */
 
 
-.container {
+.container-fluid {
     background: var(--Background);
     color: white;
+    width: 100%;   
 
 }
 
@@ -83,6 +84,9 @@ nav.navbar button {
 .photo>img {
     width: 150px;
     height: 150px;
+    border: 3px solid white;
+    border-radius: 50%;
+  
 }
 
 .personal_intro {
@@ -243,6 +247,8 @@ nav.navbar button {
     padding: 20px;
     display: grid;
     place-items: center;
+    
+   
 
 }
 
@@ -250,6 +256,10 @@ nav.navbar button {
     color: var(--FontColorSpecial);
     text-align: center;
     font-weight: bold;
+}
+.about_me > p{
+    max-width: 600px;
+    padding: 20px;
 }
 
 /* -------------------------Work Experience--------------------------- */
@@ -306,7 +316,9 @@ nav.navbar button {
     font-size: 10px;
     padding: 5px;
     height: 100px;
-    width: 250px;
+    min-width: 250px;
+    
+    
     padding: 0 0 120px 10px;
     border-radius: 15px;
     position: relative;
@@ -347,6 +359,8 @@ nav.navbar button {
 /* ----------------------------Skills--------------------------------- */
 .skills {
     background-color: var(--Background);
+    display: grid;
+    place-items: center;
 
 }
 
@@ -361,7 +375,7 @@ nav.navbar button {
     display: flex;
     align-items: center;
     justify-content: center;
-    position: relative;
+    max-width: 500px;
     gap: 20px;
     flex-wrap: wrap;
 
@@ -578,6 +592,8 @@ nav.navbar button {
 .contact {
     background: var(--Background);
     padding: 50px;
+    display: grid;
+    place-items: center;
 }
 
 .contact>h2 {
@@ -591,6 +607,7 @@ nav.navbar button {
     display: flex;
     flex-direction: column;
     gap: 10px;
+    width: 80%;
 }
 
 .container_form>input {
@@ -646,9 +663,12 @@ nav.navbar button {
     flex-direction: column;
     color: white;
     align-items: center;
+    align-content: center;
     justify-content: center;
+    text-align: center;
 
     width: 100%;
+    max-width: 400px;
 
     gap: 20px;
     margin: 30px 0;
@@ -713,4 +733,93 @@ footer {
         transform: translateY(0px);
     }
 
+}
+
+
+
+/* ---------------------------Media Querys------------------------- */
+
+@media screen and (min-width:576px) {
+    
+  .photo>img{
+    width: 250px;
+    height: 250px;
+    border: 5px solid white;
+  }
+  .social i {
+    font-size: 45px;
+  }
+  .social>a{
+    font-size: 45px;
+  }
+   /* ------Study----------- */
+
+   .study_container{
+    flex-direction: row;
+   }
+
+   .img_study {
+    width: 150px;
+    height: 150px;
+}
+.card{
+    width: 200px;
+}
+.img_studys {
+    width: 250px;
+    height: 150px;
+}
+
+/* -----Work Experience------ */
+.experience>h2{
+    padding: 25px 0 50px;
+}
+.card_text{
+  font-size: 14px;
+}
+.card_text > h3{
+    font-size: 16px;
+}
+
+.col1{
+    left: 20px;
+}
+.col2{
+    left: 120px;
+    
+}
+
+
+}
+
+@media screen and ( min-width:768px ){
+    /* ----personal intro------ */
+    .intro{
+        flex-direction: row-reverse;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+    }
+    .personal_intro{
+        padding: 80px 0 50px 0;
+    }
+
+   /* -------Proyectos--------- */
+   .box_proyects{
+    flex-direction: row;
+    flex-wrap: wrap
+   }
+
+   .container_form{
+    width: 500px;
+   }
+
+}
+
+@media screen and ( min-width:992px ){
+}
+
+@media screen and ( min-width:1200px ){
+
+   
 }
