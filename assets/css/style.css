@@ -266,7 +266,7 @@ nav.navbar button {
 .experience {
     background: var(--Background);
     text-align: center;
-    padding: 10px 20px;
+    padding: 30px 20px 50px;
     overflow: hidden;
 
 
@@ -279,49 +279,42 @@ nav.navbar button {
 
 .row {
     width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     height: 500px;
     padding: 30px 8px;
    
     margin: auto;
-    position: relative;
+    
     
 
 }
-.col1{
+.img{
+    width: 90px;
     
-    display: flex;
-    gap: 20px;
-    flex-direction: column;
-    justify-content: flex-start;
-    width: 50%;
-    position: absolute;
-    left: 0;
-    top: 0;
+    display: grid;
+    place-items: center;
+   
     
 }
-.col2{
-    position: absolute;
-    width: 50%;
-    left: 100px;
-    top: 0;
-    
-    gap: 20px;
-    background: transparent;
-
+.text{
+  
+    width: 200px;
 }
 .card_text{
     background: var(--Background);
     color: var(--FontColor);
     text-align: justify;
     font-size: 10px;
-    padding: 5px;
+    margin-bottom: 20px;
+   
     height: 100px;
     min-width: 250px;
     
     
-    padding: 0 0 120px 10px;
+    
     border-radius: 15px;
-    position: relative;
    
     
 
@@ -336,6 +329,7 @@ nav.navbar button {
     background: var(--FontColor);
     border-radius: 20px;
     width: 95px;
+    margin-bottom: 20px;
 }
 .card_img:hover {
     background: var(--FontColorSpecial);
